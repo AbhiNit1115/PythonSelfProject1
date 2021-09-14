@@ -25,7 +25,7 @@ class Phone:
 
     def show_model(self, p):
         price = p
-        print("Model:", self.model, "and Price:", p)
+        print("Model:", self.model, "and Price:", price)
         print("Volume:", self.volume)
 
 

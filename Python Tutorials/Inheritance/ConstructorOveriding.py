@@ -1,6 +1,6 @@
 # By default the constructor in parent class is available to child class
-# but what if child class also has ots own constructor
-# Constructor Overriding: If we ride the constructor in both the classes then the parent class constructor
+# but what if child class also has its own constructor
+# Constructor Overriding: If we create constructors in both the classes then the parent class constructor
 # is not available to the child class i.e. child class constructor is replacing parent class constructor
 
 class Father:

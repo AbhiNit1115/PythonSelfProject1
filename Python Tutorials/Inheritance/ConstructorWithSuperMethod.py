@@ -1,5 +1,5 @@
 # During constructor overriding when we want to call child as well as parent class constructor(s)
-# super() meths is used to call parent class "constructor" or "methods" from child class.
+# super() method is used to call parent class "constructor" or "methods" from child class.
 
 class Father:
     def __init__(self):
@@ -13,9 +13,7 @@ class Child(Father):
 
     def __init__(self):  # child class constructor
         super().__init__()  # super() function will call the parent class constructor
-        print()
         print("This is Child class constructor")  # post super function child class constructor will execute
-        print()
         print()
 
     def child_property(self):
@@ -42,7 +40,6 @@ class Child1(Father1):
 
     def __init__(self, m):  # child class constructor
         super().__init__(2000)  # pass the parameter/argument with super function
-        print()
         self.money = m
         print("This is Child class constructor")  # post super function child class constructor will execute
 

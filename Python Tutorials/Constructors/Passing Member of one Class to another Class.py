@@ -6,8 +6,7 @@ class Employee:
         self.name = n
         self.dept = d
 
-    # Instance Method
-    def emp_details(self):
+    def emp_details(self):  # Instance Method
         print("Employee Name is:", self.name)
         print("Employee Dept is:", self.dept)
 

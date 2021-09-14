@@ -5,4 +5,4 @@
 # but internally its happening like
 # class Mobile(object):
 # This object we don't need to explicitly specify
-# Types of Inheritance : Single, Multi-Level, Multiple, Hierarchical
+# Types of Inheritance : Single, Multi-Level, Multiple, Hierarchical etc.
