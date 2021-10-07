@@ -15,6 +15,7 @@ class Mobile:
 
 
 Mobile.show_model()  # Calling class method
+print()
 
 
 # class method with parameter
