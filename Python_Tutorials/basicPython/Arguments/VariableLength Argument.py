@@ -25,5 +25,5 @@ def details1(country, *detail):
     print(f"Country is: {country}, Name is: {name}, Age is: {age}, Phone is:{phone}")
 
 
-# positional argument
+# here india is a positional argument rest are variable length
 details1("India", "Ram", 23, 456456546)

@@ -7,11 +7,22 @@
 # 3.) Keys are case sensitive.
 # Values can be of any datatype and can be duplicated.
 
-emp = {"name": 'abhishek', "age": 23, 21: "yes"}
-for keys in emp.keys():
-    print("This is a key:", keys)
-for values in emp.values():
-    print("This is a value:", values)
+emp = {"name": 'abhishek', "age": 23, 21.0: "yes"}
+
+
+def dict1(name):
+    for item in emp:
+        if item['name'] == name:
+            itemConfig = item
+
+
+
+print(emp["name"])
+for key in emp.keys():
+    key1 = key
+    print("This is a key:", key1)
+for value in emp.values():
+    print("This is a value:", value)
 
 result1 = ''.join(['{0}:{1} '.format(k, v) for k, v in emp.items()])
 print(result1)

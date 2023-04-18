@@ -10,7 +10,7 @@ class Employee:
         self.name = name  # --> data member
         self.project = project  # --> data member
 
-    def work(self):  #method
+    def work(self):  # method
         print("Name is:", self.name, "Project is:", self.project)
 
 # In class we are wrapping data and the methods that work on data within one unit.

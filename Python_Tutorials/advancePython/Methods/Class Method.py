@@ -1,4 +1,4 @@
-# Class methods are the methods which act upon class variable or static variables of the class
+# Class methods are the methods which act upon class variable or dynamic variables of the class
 # Decorator @classmethod needs to be written above the class method
 # By default first parameter of class method is cls which refers to class itself.
 # Syntax:- @classmethod --> this is decorator

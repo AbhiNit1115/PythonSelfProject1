@@ -1,9 +1,10 @@
-lst = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+lst = [11, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 # Without list comprehension
 list1 = []
 for i in lst:
     list1.append(i + 1)
 print(list1)
+
 # With list comprehension
 list2 = [i + 1 for i in lst]
 print(list2)
@@ -35,9 +36,8 @@ print()
 # Nested If condition without list comprehension
 list5 = []
 for i in range(13):
-    if i % 2 == 0:
-        if i % 3 == 0:
-            list5.append(i)
+    if i % 2 == 0 and i % 3 == 0:
+        list5.append(i)
 print(list5)
 # If condition with list comprehension
 list6 = [i for i in range(7) if i % 2 == 0 if i % 3 == 0]

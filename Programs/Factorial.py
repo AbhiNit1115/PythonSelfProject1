@@ -1,6 +1,6 @@
 def factorial():
     fact = 1
-    num = int(input("Please enter a number:"))
+    num = int(input("Please enter a number: "))
 
     if num < 0:
         print("Please enter a positive number")
@@ -9,7 +9,8 @@ def factorial():
     else:
         for i in range(1, num+1):
             fact = fact * i
-            print("The factorial of", num, "is", fact)
+        print(f"The factorial of {num} is", fact)
 
 
 factorial()
+

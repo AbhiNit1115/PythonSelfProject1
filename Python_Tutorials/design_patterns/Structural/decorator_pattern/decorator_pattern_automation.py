@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 
 
-class LoginPage(ABC):
-    """Interface for HR berry login"""
+class LoginPage(ABC):  # To Log to any application
+    """Interface for login"""
 
     def __init__(self, hrberry_login):
         self._hrberry_login = hrberry_login
@@ -13,7 +13,7 @@ class LoginPage(ABC):
 
 
 class HRBerryLogin(LoginPage):
-    """Implements HRBerry Login"""
+    """Implements Login Page"""
 
     def __init__(self, hrberry_login):
         super().__init__(hrberry_login)
@@ -62,6 +62,6 @@ class TestHRLogin(HRBerryLoginDecorator):
 hrberry_page = HRBerryLogin("HR berry")
 hr_login = TestHRLogin(HRBerryLogin("hr login details"))
 
-print("Website details :", hrberry_page.user_details())
-print("Login for HR :", hr_login.user_details())
-print("Login details:", hr_login.hr_login_test())
+print("Website Name :", hrberry_page.user_details())
+print("Login Details :", hr_login.user_details())
+print("Info Message:", hr_login.hr_login_test())

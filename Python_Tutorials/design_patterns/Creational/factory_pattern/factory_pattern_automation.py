@@ -4,7 +4,7 @@ from selenium import webdriver
 import abc
 
 
-class IOrganizeManager(abc):
+class IOrganizeManager(metaclass=abc.ABCMeta):
 
     @abc.abstractmethod
     def start_service(self):
@@ -12,10 +12,6 @@ class IOrganizeManager(abc):
 
     @abc.abstractmethod
     def stop_service(self):
-        pass
-
-    @abc.abstractmethod
-    def create_driver(self):
         pass
 
     @abc.abstractmethod
@@ -46,9 +42,6 @@ class OrganizeChromeDriver(IOrganizeManager):
         stop = self.cease
         return stop
 
-    def create_driver(self):
-        return self.create_driver
-
     def get_driver(self):
         return self.driver.get_driver
 
@@ -75,9 +68,6 @@ class OrganizeFFDriver(IOrganizeManager):
         stop = self.cease
         return stop
 
-    def create_driver(self):
-        return self.create_driver
-
     def get_driver(self):
         return self.driver.get_driver
 
@@ -91,12 +81,12 @@ class DriverManagerFactory:
     def select_webdriver(driver_type):
         try:
             if driver_type == "Chrome":
-                return OrganizeChromeDriver
+                return OrganizeChromeDriver(driver_type)
         except:
             raise AssertionError("Chrome Driver not available")
         try:
             if driver_type == "Firefox":
-                return OrganizeFFDriver
+                return OrganizeFFDriver(driver_type)
         except:
             raise AssertionError("FF Driver not available")
 
@@ -105,17 +95,16 @@ class Test1:
 
     def chrome_tests(self):
         driver_manager = DriverManagerFactory.select_webdriver("Chrome")
-        driver_manager.create_driver()
         driver_manager.get_driver()
         driver_manager.start_service()
         driver_manager.stop_service()
         driver_manager.quit_driver()
 
+
 class Test2:
 
     def ff_tests(self):
         driver_manager = DriverManagerFactory.select_webdriver("Firefox")
-        driver_manager.create_driver()
         driver_manager.get_driver()
         driver_manager.start_service()
         driver_manager.stop_service()

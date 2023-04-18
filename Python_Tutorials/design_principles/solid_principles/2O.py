@@ -1,62 +1,65 @@
 # A class should be Open for extension, meaning that the class’s behavior can be extended; and
 # Closed for modification, meaning that the source code is set and cannot be changed.
-# from our previous example suppose we want to introduce a new payment method apart from credit/debit say
-# bitcoin payment
+# from our previous example suppose we want to introduce a new payment method apart from cash/rupay say
+# UPI payment
 
 from abc import ABC, abstractmethod
 
 
-class Request:
-    products = []
-    product_count = []
-    product_prices = []
-    status = "none"
+class Tournament:
+    events = []
+    teams = []
+    pricing = []
+    status = "open"
 
-    def add_product(self, name: str, quantity: int, price: int):
-        self.products.append(name)
-        self.products.append(quantity)
-        self.products.append(price)
+    def create_games(self, games: str, count: int, price: int):
+        self.events.append(games)
+        self.teams.append(count)
+        self.pricing.append(price)
 
-    def final_price(self):
-        total = 0
-        for i in range(len(self.product_prices)):
-            total = self.product_count[i] * self.product_prices[i]
-            return total
+    def games_count(self, total_games: int):
+        self.events.append(total_games)
+        total_events = len(self.events)
+        print("Total Games in Tournament:", total_events)
 
 
-class PaymentProcessor(ABC):
+class AcceptedPaymentTypes(ABC):
+    """Created an interface for all accepted payment types"""
     @abstractmethod
-    def payment_method(self, req, security_code):
+    def payment_type(self, cvv_pin):
         pass
 
 
-class DebitPayment(PaymentProcessor):
-    def payment_method(self, req, security_code):
-        print("processing debit payment type")
-        print(f"verifying security code: {security_code}")
-        req.status = "paid"
+class RupayPayment(AcceptedPaymentTypes):
+
+    """Implementing the interface method as per the need of class"""
+    def payment_type(self, cvv_pin):
+        print("Rupay payment mode selected")
+        print(f"the cvv pin is: {cvv_pin}")
+        status = "Registered"
+        print("Status is:", status)
 
 
-class CreditPayment(PaymentProcessor):
-    def payment_method(self, req, security_code):
-        print("processing credit payment type")
-        print(f"verifying security code: {security_code}")
-        req.status = "paid"
+class CashPayment(AcceptedPaymentTypes):
+    """Implementing the interface method as per the need of class"""
+    def payment_type(self, cvv_pin):
+        print("Cash Payment no security code required")
+        status = "Registered"
+        print("Status is:", status)
 
 
-# Now in case we want to add another payment type say paypal, bitcoin etc. we don't have to violate O/C principle.
+class UPIPayment(AcceptedPaymentTypes):
 
-class ETHPayment(PaymentProcessor):
-    def payment_method(self, req, security_code):
-        print("processing btc payment type")
-        print(f"verifying security code: {security_code}")
-        req.status = "paid"
+    """If we want to add another payment type say UPI etc. we don't have to violate O/C principle."""
+    def payment_type(self, cvv_pin):
+        print("UPI payment mode selected")
+        print(f"the upi pin is: {cvv_pin}")
+        status = "Registered"
+        print("Status is:", status)
 
 
-req = Request()
-req.add_product("chocolate", 2, 20)
-req.add_product("ssd", 2, 20)
-print(req.final_price())
-
-payment = ETHPayment()
-payment.payment_method(req, 3425345)
+tur = Tournament()
+tur.create_games("Bowling", 1, 23)
+tur.games_count(1)
+payment = UPIPayment()
+payment.payment_type(3425345)

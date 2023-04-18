@@ -1,0 +1,1 @@
+# Case 1: A trie is blank--> create a blank node and assign A to this blank node

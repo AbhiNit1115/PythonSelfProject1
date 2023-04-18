@@ -43,4 +43,3 @@ s = Son()
 # Object class so Mother class constructor is called.
 # As mother class also has super() function so it's parent class "Object" constructor is called but as
 # object class is already visited the search will stop there.
-
