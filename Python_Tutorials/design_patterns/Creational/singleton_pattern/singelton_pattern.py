@@ -1,11 +1,11 @@
 # Singleton are a design pattern where only one instance may exist at any given time.
-# This pattern relies on 2 mechanism of Object Orientation: first is a static/class method that gives access
+# This pattern relies on 2 mechanism of Object Orientation: first is a dynamic/class method that gives access
 # to an instance of a class, second is the private access modifier that allows access to a method only from
-# inside the class by making the constructor private only the static method inside the class can create an instance.
+# inside the class by making the constructor private only the dynamic method inside the class can create an instance.
 # Used in case of data configuration like DB connectivity, WebDriver Manager etc.
 
 # Ways to achieve Singleton in Python:
-# 1.) Using static method
+# 1.) Using dynamic method
 class DBConnection:
     """This is a class variable and will keep track whether our instance is created or not
         when we say instance = none means that when our program runs the instance is not yet created"""

@@ -1,55 +1,45 @@
 # S: single Responsibility Principle: A class and its respective methods should only have one responsibility.
-# In the below mentioned example we have one class which is doing things like addition of orders, calculation
-# of total price as well as defining the payment method type which is not in line with SRP.
+# In the below mentioned example we have one class which is doing things like game creation, counting
+# total games as well as defining the game payment method which is not in line with SRP.
 
-class Request:
-    products = []
-    product_count = []
-    product_prices = []
+class Tournament:
+    events = []
+    teams = []
+    pricing = []
+    status = "open"
 
-    def add_product(self, name: str, quantity: int, price: int):
-        self.products.append(name)
-        self.products.append(quantity)
-        self.products.append(price)
+    def create_games(self, games: str, count: int, price: int):
+        self.events.append(games)
+        self.teams.append(count)
+        self.pricing.append(price)
 
-    def final_price(self):
-        total = 0
-        for i in range(len(self.product_prices)):
-            total = self.product_count[i] * self.product_prices[i]
-            return total
+    def games_count(self, total_games: int):
+        self.events.append(total_games)
+        total_events = len(self.events)
+        print("Total Games in Tournament:", total_events)
 
-    def payment_mode_debit(self, cvv_pin):
-        print("Payment mode selected is debit")
+
+class GamePaymentMethods:
+    """ we have remove payment method instead of that we have created this class game payment method
+        here we no longer need the paying_methods as we are explicitly defining the payment method"""
+
+    @staticmethod
+    def cash_payment():
+        print("Cash Payment no security code required")
+        status = "Registered"
+        print("Status is:", status)
+
+    @staticmethod
+    def rupay_payment(cvv_pin):
+        print("Rupay payment mode selected")
         print(f"the cvv pin is: {cvv_pin}")
-
-    def payment_mode_credit(self, cvv_pin):
-        print("Payment mode selected is credit")
-        print(f"the cvv pin is: {cvv_pin}")
+        status = "Registered"
+        print("Status is:", status)
 
 
-req = Request()
-req.add_product("cream", 5, 6)
-req.add_product("cream1", 5, 6)
-print(req.final_price())
-req.payment_mode_debit(876876)
-req.payment_mode_credit(52432)
-
-
-# here we can remove the payment method instead of that we have created below mentioned class payment processor
-# also as there is no "status" variable defined at class level we have passed a parameter "order" and verifying
-# the status with order.status
-
-
-class PaymentProcessor:
-
-    def payment_mode_debit(self, cvv_pin):
-        print("Payment mode selected is debit")
-        print(f"the cvv pin is: {cvv_pin}")
-
-    def payment_mode_credit(self, cvv_pin):
-        print("Payment mode selected is credit")
-        print(f"the cvv pin is: {cvv_pin}")
-
-
-payment = PaymentProcessor
-payment.payment_mode_debit(456, 6757)
+tur = Tournament()
+tur.create_games("Bowling", 1, 23)
+tur.games_count(1)
+game_pay = GamePaymentMethods
+game_pay.rupay_payment(4554)
+game_pay.cash_payment()

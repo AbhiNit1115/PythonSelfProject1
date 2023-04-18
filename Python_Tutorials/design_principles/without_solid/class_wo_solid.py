@@ -1,34 +1,34 @@
-class Order:
-    items = []
-    quantities = []
-    prices = []
-    status = "open"
+class Tournament:
+    events = []
+    teams = []
+    pricing = []
 
-    def add_item(self, name, quantity, price):
-        self.items.append(name)
-        self.items.append(quantity)
-        self.items.append(price)
+    def create_games(self, games: str, count: int, price: int):
+        self.events.append(games)
+        self.teams.append(count)
+        self.pricing.append(price)
 
-    def total_price(self):
-        total = 0
-        for i in range(len(self.prices)):
-            total = self.quantities[i] * self.prices[i]
-            return total
+    def games_count(self, total_games: int):
+        self.events.append(total_games)
+        total_events = len(self.events)
+        print("Total Games in Tournament:", total_events)
 
-    def pay(self, payment_type, security_code):
-        if payment_type == "debit":
-            print("processing debit payment type")
-            print(f"verifying security code: {security_code}")
-            self.status = "paid"
-        elif payment_type == "credit":
-            print("processing credit payment type")
-            print(f"verifying security code: {security_code}")
-            self.status = "paid"
+    def game_payment(self, paying_methods: str, cvv_pin: int):
+        if paying_methods == "cash":
+            print("processing cash payment")
+            status = "Registered"
+            print("Status is:", status)
+        elif paying_methods == "rupay":
+            print("processing rupay payment")
+            print(f"verifying security code: {cvv_pin}")
+            status = "Registered"
+            print("Status is:", status)
         else:
-            raise Exception(f"unknown payment type:{payment_type}")
+            raise Exception(f"unknown payment type:{paying_methods}")
 
 
-order = Order()
-order.add_item("chocolate", 2, 20)
-order.total_price()
-order.pay("debit", 3425345)
+tur = Tournament()
+tur.create_games("Bowling", 1, 23)
+tur.games_count(1)
+tur.game_payment("rupay", 3425345)
+tur.game_payment("cash", 435)

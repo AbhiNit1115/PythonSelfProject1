@@ -9,21 +9,21 @@ class PostTest:
         print(request_url.status_code)
 
 
-class DeleteTest:
-
-    @staticmethod
-    def request_to_delete():
-        request_url = requests.delete("http://httpbin.org/delete")
-        response_validation = request_url.text
-        print(response_validation)
-
-
 class GetTest:
 
     @staticmethod
     def request_to_get():
         request_url = requests.get("http://httpbin.org/get")
         response_validation = request_url.headers
+        print(response_validation)
+
+
+class DeleteTest:
+
+    @staticmethod
+    def request_to_delete():
+        request_url = requests.delete("http://httpbin.org/delete")
+        response_validation = request_url.text
         print(response_validation)
 
 
@@ -42,4 +42,3 @@ class CRUDFacade:
 
 crud = CRUDFacade()
 crud.execute_crud_facade()
-

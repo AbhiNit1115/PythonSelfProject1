@@ -1,4 +1,4 @@
-text = "Sachin Ramesh Tendulkari"
+text = "Sachin Ramesh Tendulkar"
 output = "S.R. Tendulkar"
 
 count = 0

@@ -1,0 +1,5 @@
+
+Œ
+\Python_Tutorials/design_patterns/Creational/factory_pattern/class_without_factory_pattern.py,f\1\f1913afff355935e331db1b1d584605af7b92699
+r
+BPython_Tutorials/advancePython/Inheritance/ConstructorOveriding.py,3\7\3746f4074aac221930fbce2384ec7ea5ec9e4d93

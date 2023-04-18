@@ -15,7 +15,7 @@ print(id(y))
 # object value is same for different reference variable(s) then python just increases the reference count for
 # that object. From our example x = 10 here the reference count for reference variable x is +1 now when we
 # create another reference count for the same object value i.e. 10 as we did y=10 here the reference count
-# get increased by +1 and total reference variable count becomes 2. Hence the diffrent reference variable
+# get increased by +1 and total reference variable count becomes 2. Hence the different reference variable
 # points to the same memory address.
 
 # Like we can increase the reference variable we can also decrease it as well. So when the reference variable

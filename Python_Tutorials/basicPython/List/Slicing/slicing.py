@@ -47,3 +47,7 @@ for i in a:
 
 y = ['india', 'country']
 print("This will print:", y[-1][-1])
+
+list1 = "abcd"
+reverse = list1[1:3:-1]
+print(reverse)

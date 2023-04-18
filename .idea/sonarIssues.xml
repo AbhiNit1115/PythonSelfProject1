@@ -3,7 +3,1382 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/Python Console">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../CleanCode_Practical/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task1/collection/collect_order_service.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../CleanCode_Practical/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task1/delivery/delivery_order_service.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../CleanCode_Practical/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task1/order_service_stub.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../CleanCode_Practical/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task1/thirdparty/product.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../CleanCode_Practical/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task2/user.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../CleanCode_Practical/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task3/harshad_numbers.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../CleanCode_Practical/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task5/file_manager.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../CleanCode_Practical/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/tests/task1/collection/collection_order_service_test.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../CleanCode_Practical/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/tests/task1/collection/collection_order_service_test_helper.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Clean_Code_Python/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task1/collection/collect_order_service.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/ISP-Task/clean-design-python-ISP_734a20fa-fcc7-4874-bfe1-db0196f067bc/message_sender.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/ISP-Task/clean-design-python-ISP_734a20fa-fcc7-4874-bfe1-db0196f067bc/messages.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/ISP-Task/clean-design-python-ISP_734a20fa-fcc7-4874-bfe1-db0196f067bc/tests/test_message_sender.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/LSP_Task/clean-design-python-LSP_8a0f8161-fae8-4093-b2f3-db993026f7a8/base_user.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/LSP_Task/clean-design-python-LSP_8a0f8161-fae8-4093-b2f3-db993026f7a8/database_gateway.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/LSP_Task/clean-design-python-LSP_8a0f8161-fae8-4093-b2f3-db993026f7a8/generic_user.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/LSP_Task/clean-design-python-LSP_8a0f8161-fae8-4093-b2f3-db993026f7a8/power_user.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/LSP_Task/clean-design-python-LSP_8a0f8161-fae8-4093-b2f3-db993026f7a8/tests/test_generic_user.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/Obj_DS/clean-design-python-ODS_6da55e03-7a1d-4034-926b-85b49db72f53/aperture.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/Obj_DS/clean-design-python-ODS_6da55e03-7a1d-4034-926b-85b49db72f53/area_utils.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/Obj_DS/clean-design-python-ODS_6da55e03-7a1d-4034-926b-85b49db72f53/assignment.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/Obj_DS/clean-design-python-ODS_6da55e03-7a1d-4034-926b-85b49db72f53/bill_calculator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/Obj_DS/clean-design-python-ODS_6da55e03-7a1d-4034-926b-85b49db72f53/fund_calculator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/Obj_DS/clean-design-python-ODS_6da55e03-7a1d-4034-926b-85b49db72f53/salary_calculator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/Obj_DS/clean-design-python-ODS_6da55e03-7a1d-4034-926b-85b49db72f53/tests/test_fund_calculator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/Obj_DS/clean-design-python-ODS_6da55e03-7a1d-4034-926b-85b49db72f53/worker.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/Obj_DS/clean-design-python-ODS_6da55e03-7a1d-4034-926b-85b49db72f53/zone.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/Tell_Task/clean-design-python-TDAP_bc23d007-f8ea-4589-8656-63e59b5db328/domain/customer.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Clean_Design/Tell_Task/clean-design-python-TDAP_bc23d007-f8ea-4589-8656-63e59b5db328/mortgage_application_queue_processor.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/LIBG/LIBG_Test_Framework_local/strategy_design/JiraPlugin_Context.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/LIBG/LIBG_Test_Framework_local/strategy_design/jira_plug_in_clients.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/LIBG/LIBG_Test_Framework_local/strategy_design/plugin_strategy.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/LIBG/LIBG_Test_Framework_local/strategy_design/test_management_plugin_Context.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/LIBG/LIBG_Test_Framework_local/strategy_design/zephyr_plugin.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/LIBG/LIBG_Test_Framework_local/x-ray/zephyr_reporter/clients/zephyr_client.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task1/collection/collect_order_service.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task1/delivery/delivery_order_service.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task1/order_service_stub.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task2/user.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task3/harshad_numbers.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task4/service/customer_contact_service.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task5/file_manager.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task5/predicates/file_extension_predicate.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task6/formatter.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/tests/task1/collection/collection_order_service_test.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/tests/task1/delivery/delivery_order_service_test.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/tests/task2/user_test_helper.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/tests/task3/Harshad_test.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/tests/task3/harshad_test.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Functions/clean-code-python-functions_d37d4d43-c833-452c-b8f8-1bc02704d2fd/functions/task1/register_account_action.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Functions/clean-code-python-functions_d37d4d43-c833-452c-b8f8-1bc02704d2fd/functions/task2/account.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Functions/clean-code-python-functions_d37d4d43-c833-452c-b8f8-1bc02704d2fd/functions/task3/user_authenticator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Functions/clean-code-python-functions_d37d4d43-c833-452c-b8f8-1bc02704d2fd/functions/task4/order.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Functions/clean-code-python-functions_d37d4d43-c833-452c-b8f8-1bc02704d2fd/functions/task5/date_util.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Functions/clean-code-python-functions_d37d4d43-c833-452c-b8f8-1bc02704d2fd/tests/task1/not_ok_password_checker.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Functions/clean-code-python-functions_d37d4d43-c833-452c-b8f8-1bc02704d2fd/tests/task1/ok_password_checker.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Functions/clean-code-python-functions_d37d4d43-c833-452c-b8f8-1bc02704d2fd/tests/task3/false_user_authenticator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Functions/clean-code-python-functions_d37d4d43-c833-452c-b8f8-1bc02704d2fd/tests/task3/session_manager_mock.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Functions/clean-code-python-functions_d37d4d43-c833-452c-b8f8-1bc02704d2fd/tests/task3/true_user_authenticator_mock.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Functions/clean-code-python-functions_d37d4d43-c833-452c-b8f8-1bc02704d2fd/tests/task3/user_controller_mock.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Functions/clean-code-python-functions_d37d4d43-c833-452c-b8f8-1bc02704d2fd/tests/task4/stubs/abstract_product_stub.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Functions/clean-code-python-functions_d37d4d43-c833-452c-b8f8-1bc02704d2fd/tests/task4/stubs/available_product_stub.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Functions/clean-code-python-functions_d37d4d43-c833-452c-b8f8-1bc02704d2fd/tests/task5/date_util_test.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Naming/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task1/collection/collect_order_service.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Naming/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task3/harshad.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/Clean_Code_Final/clean-code-python-final-task_0e1354f5-e2ba-407a-837b-0aba1e53cfa7/final_task/print.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/Clean_Code_Principles/clean-code-python-general-principles_efbd0075-140a-450b-83d0-9f17b8bedd97/comments/mortgage_installment_calculator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/Clean_Code_Principles/clean-code-python-general-principles_efbd0075-140a-450b-83d0-9f17b8bedd97/dry/interest_calculator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/Clean_Code_Principles/clean-code-python-general-principles_efbd0075-140a-450b-83d0-9f17b8bedd97/error_handling/user_report_builder.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/Clean_Code_Principles/clean-code-python-general-principles_efbd0075-140a-450b-83d0-9f17b8bedd97/tests/dry/interest_calculator_test.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/Clean_Code_Principles/clean-code-python-general-principles_efbd0075-140a-450b-83d0-9f17b8bedd97/tests/dry/interest_calculator_test_helper.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/Clean_Code_Principles/clean-code-python-general-principles_efbd0075-140a-450b-83d0-9f17b8bedd97/tests/error_handling/stub/another_submitted_order_stub.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Training/Python/Clean_Code_Principles/clean-code-python-general-principles_efbd0075-140a-450b-83d0-9f17b8bedd97/tests/error_handling/stub/user_dao_stub.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/EOM_Practical_Task_Module_2/EOM_Practical_Task_Module_2.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/QA Automation Feedback Diagram.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/PythonAPIFramework/requests_api_pytest/common/helper/create_url.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/PythonAPIFramework/requests_api_pytest/tests/CRUD_tests/test_crud_facade.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/PythonAPIFramework/requests_api_pytest/tests/CRUD_tests/test_delete_request.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/PythonApi/venvrequest/getrequest/get_request.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Automation_1/Resources/api_resource.robot">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Automation_1/Resources/api_resources.robot">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Automation_1/Resources/resources.robot">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Automation_1/Resources/ui_resources.robot">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Automation_1/TestCases/tc1.robot">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Automation_1/TestCases/tc2.robot">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Automation_1/TestCases/ui_test.robot">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Automation_1/library/custom_library.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Automation_1/log/report.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Automation_1/report.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Automation_1/tc1.robot">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Automation_1/ui_tests/Resources/resources.robot">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Automation_1/ui_tests/TestCases/tc1.robot">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DIP_Rough/news_article_dao.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DIP_Rough/news_broadcaster.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DIP_Rough/publishing/publish_service.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DIP_Rough/tests/test_news_broadcaster.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DIP_Rough/thirdparty/news_article_table.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Final_Project_Rough/finance/movie_budget.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ISP_Rough/message_sender.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ISP_Rough/messages.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ISP_Rough/tests/test_message_sender.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../LSP_Rough/database_gateway.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../LSP_Rough/generic_user.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../LSP_Rough/power_user.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../LSP_Rough/tests/test_db_access.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../LSP_Rough/tests/test_generic_user.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ObjDS_Rough2/aperture.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ObjDS_Rough2/area_utils.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ObjDS_Rough2/assignment.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ObjDS_Rough2/bill_calculator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ObjDS_Rough2/fund_calculator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ObjDS_Rough2/salary_calculator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ObjDS_Rough2/tests/test_fund_calculator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ObjDS_Rough2/worker.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ObjDS_Rough2/zone.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Obj_DS_Rough/aperture.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Obj_DS_Rough/area_utils.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Obj_DS_Rough/assignment.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Obj_DS_Rough/bill_calculator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Obj_DS_Rough/fund_calculator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Obj_DS_Rough/salary_calculator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Obj_DS_Rough/tests/test_fund_calculator.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Obj_DS_Rough/worker.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Obj_DS_Rough/zone.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/.pytest_cache/test4.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/duplicate_array.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/find_closest_list.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/find_missing_number.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/kth_largest_element.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/largest_and_smallest_number.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/max_sum_of_k.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/number_occurance.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/remove_duplicate_list.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/test.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/test11.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/test2.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/test3.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/test4.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Reverse a String.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/Vowel.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/strings/.pytest_cache/test12.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/strings/anagram.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/strings/convert_str1_to_str2.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/strings/duplicate_in_str.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/strings/fibonacci.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/strings/first_repeated_char.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/strings/lcs_palindrome.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Programs/strings/longest_common_subsequence.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python Tutorials/design_patterns/metaclass.py">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Python Tutorials/design_patterns/singelton_design_pattern.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python Tutorials/design_patterns/strategy_deign_pattern.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python Tutorials/design_principles/1S.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python Tutorials/design_principles/Car_Details_OCP.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python Tutorials/design_principles/Car_Reg_SRP.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/advancePython/Encapsulation/Encapsulation.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/advancePython/Inheritance/MultipleInheritance.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/advancePython/Logging/logging.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/advancePython/Memory Management/memory_mgmnt.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Arguments/VariableLength Argument.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Assert/.pytest_cache/assert_true_false.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Assert/assert.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Assert/assert_euqal.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Conditions/for_loop.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Conditions/if_elif.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Conditions/if_elif_else.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Conditions/range.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/DateTime/date_time.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Dictionary/Dictionary_Memory.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Dictionary/Dictionary_Traversal.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Dictionary/Search_Element.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Dictionary/dictionary.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Dictionary/dictionary_methods.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/List/ListComprehension.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/List/Slicing/negative_slicing.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/List/Slicing/slicing.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/List/String_to_List.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Underscores/double_leading_and_trailing_us.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Underscores/double_leading_underscore.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Underscores/dunder.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Underscores/single_leading_underscore.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Underscores/single_trailing_underscore.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/basicPython/Variables and Namespace/Variables.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Behavioral/strategy_design_pattern_implemented.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Behavioral/strategy_pattern.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Behavioral/strategy_pattern_automation.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Behavioral/stratey_pattern/with_strategy_pattern.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Behavioral/with_strategy_design_pattern.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Behavioral/wo_strategy_deign_pattern.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Creational/factory_pattern/class_withou_factory_pattern.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Creational/factory_pattern/factory_pattern.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Creational/factory_pattern/factory_pattern_automation.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Creational/factory_pattern/factory_pattern_implemented.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Creational/factory_pattern/factory_pattern_selenium.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Creational/singleton_pattern/singelton_pattern.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Structural/decorator_pattern/dec.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Structural/decorator_pattern/decorator_design_pattern.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Structural/decorator_pattern/decorator_pattern.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Structural/decorator_pattern/decorator_pattern_automation.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Structural/decorator_pattern/decorator_pattern_selenium.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Structural/facade_design_pattern/facade_pattern.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Structural/facade_design_pattern/facade_pattern_automation.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/Structural/facade_design_pattern/facade_pattern_selenium.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_patterns/singelton_design_pattern.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_principles/1S.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_principles/2O.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_principles/3L.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_principles/Car_Details_OCP.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_principles/Car_Reg_SRP.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_principles/solid_principles/1S.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_principles/solid_principles/2O.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_principles/solid_principles/3L.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_principles/solid_principles/4I.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_principles/solid_principles/5D.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_principles/solid_principles/SOLID_Question.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_principles/without_solid/class_wo_solid.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_principles/without_solid/home_task_solid.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/design_principles/without_solid/test.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/Search/binary_search/binary_search.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/Search/linear_search/linear_search.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/greedy_algo/coin_change.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/greedy_algo/knapsack_problem.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/recursion/measure_recursive_algo.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/recursion/recursion.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/recursion/recursion1.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/recursion/recursion2.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/recursion/recursion_factorial.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/recursion/recursion_fibonacci.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/recursion/recursion_vs_iteration.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/sorting/bubble_sort.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/sorting/bucket_sort.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/sorting/heap_sort.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/sorting/insertion_sort.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/sorting/merge_sort.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/sorting/quick_sort.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/sorting/selection_sort.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/sorting/selection_sort.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/algorithms/sorting/sorting.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/linear-ds/dynamic/stack/stack.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/linear-ds/static/array/Create_Array.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/linear-ds/static/linked_list/linked_list.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/linear-ds/static/linked_list/singly_linked_list/Create_Singly_Linked_List.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/linear-ds/static/linked_list/singly_linked_list/Insertion_Linked_List.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/avl_tree/create_avl.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/avl_tree/insert_node.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/binary_search_tree/create_bst.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/binary_search_tree/insert_node.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/binary_tree.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/binary_tree/binary_tree.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/binary_tree/python_list/delete_node.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/binary_tree/python_list/inorder_traversal.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/binary_tree/python_list/level_oredr_traversal.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/binary_tree/python_list/list_binary_tree.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/binary_tree/python_list/postorder_traversal.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/binary_tree/python_list/pre_order_traversal.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/binary_tree/python_list/search_node_bt.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/binary_tree/traversal/depth_first_traversal/in_order_traversal.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/binary_tree/traversal/depth_first_traversal/post_order_traversal.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/binary_tree/traversal/depth_first_traversal/pre_order_traversal.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/tree_intro.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/trie/insert_string.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/data_structures/non-linear-ds/tree/trie/trie.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/ds_and_algo/time_complexity/time_complexity.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/tests/conftest.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Tell_Rough/domain/customer.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Tell_Rough/mortgage_application_queue_processor.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clean-code-python-naming/naming/task1/order_service_stub.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clean-code-python-naming/naming/task2/user.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clean-code-python-naming/naming/task5/file_manager.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clean-code-python-naming/naming/task6/formatter.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pythonProject/tc1.robot">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pythonProject/tc1.robot.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pythonProject/test1/tc1.robot">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PythonAPIFramework/requests_api_pytest/tests/CRUD_tests/conftest.py">
           <value>
             <set />
           </value>

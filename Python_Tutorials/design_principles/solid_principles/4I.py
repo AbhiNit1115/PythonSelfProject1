@@ -7,98 +7,111 @@
 # for decoupling over coupling. According to this principle, engineers should work to have many client-specific
 # interfaces, avoiding the temptation of having one big, general-purpose interface.
 
-# Now continuing with our prior example from LSP, here suppose the debit card has 2F authentication and the
-# credit card doesn't have it so if we depend on the large interface i.e. PaymentProcessor and create
-# a new method in debit payment processor then we are breaking the LSP. So, in order to achieve it we would use
-# interface segregation i.e. create another interface for 2f auth.
+# Now continuing with our prior example from LSP, here suppose the rupay payment has email approval and the
+# upi payment has duo approval so if we depend on the large interface i.e. AcceptedPaymentTypes and create
+# a new method in rupay and another in upi payment then we are breaking the LSP. So, in order to achieve it we
+# would use interface segregation i.e. create another interface for approval process.
 
+# Dependency inversion means that we want our class to depend on abstractions and not on concrete subclasses
 from abc import ABC, abstractmethod
 
 
-class Order:
-    items = []
-    quantities = []
-    prices = []
+class Tournament:
+    events = []
+    teams = []
+    pricing = []
     status = "open"
 
-    def add_item(self, name, quantity, price):
-        self.items.append(name)
-        self.items.append(quantity)
-        self.items.append(price)
+    def create_games(self, games: str, count: int, price: int):
+        self.events.append(games)
+        self.teams.append(count)
+        self.pricing.append(price)
 
-    def total_price(self):
-        total = 0
-        for i in range(len(self.prices)):
-            total += self.quantities[i] * self.prices[i]
-            return total
+    def games_count(self, total_games: int):
+        self.events.append(total_games)
+        total_events = len(self.events)
+        print("Total Games in Tournament:", total_events)
 
 
-# Interface1: for payment method.
-class PaymentProcessor(ABC):
+class AcceptedPaymentTypes(ABC):
+    """Interface for different payment types"""
+
     @abstractmethod
-    def pay(self, order):
+    def payment_type(self):
         pass
 
 
-# Interface2: This is another granular interface which is a child of interface1 i.e. PaymentProcessor for 2F
-class PaymentProcessor_2F(PaymentProcessor):
-    @abstractmethod
-    def sms_auth(self, two_fact):
-        pass
+class DuoApproval:
+    """Class for Duo Approval implementing Approval Interface for duo mobile type approval"""
+    approved = False
+
+    def duo_code_auth(self, duo_code):
+        print(f"Verifying duo code: {duo_code}")
+        self.approved = True
+
+    def approval_status(self) -> bool:
+        return self.approved
 
 
-# Now applying interface segregation principle we can create a class for debit payment and in that if we want
-# we can implement either one or both the methods.
-class Debit_payment_processor(PaymentProcessor):
+class EmailApproval:
+    """Class for Email Approval implementing Approval Interface for email type approval"""
+    approved = False
 
-    def __init__(self, security_code):
-        self.security_code = security_code
+    def email_code_auth(self, email_code: str):
+        print(f"Verifying email code: {email_code}")
+        self.approved = True
 
-    def pay(self, order):
-        print("processing debit payment type")
-        print(f"verifying security code: {self.security_code}")
-        order.status = "paid"
-
-    def sms_auth(self, two_fact):
-        print(f"This is two factor auth: {two_fact}")
+    def approval_status(self) -> bool:
+        return self.approved
 
 
-# The credit method doesn't uses 2F auth hence no need of implementing the method here (ISP advantage)
-class Credit_payment_processor(PaymentProcessor):
-    def __init__(self, security_code):
-        self.security_code = security_code
+class RupayPayment(AcceptedPaymentTypes):
+    """Now applying ISP RupayPayment has email approval so created approval parameter of
+       EmailApproval type"""
 
-    def pay(self, order):
-        print("processing credit payment type")
-        print(f"verifying security code: {self.security_code}")
-        order.status = "paid"
+    def __init__(self, cvv_pin: int, approval: EmailApproval):
+        self.cvv_pin = cvv_pin
+        self.approval = approval
 
-
-# Now BTC class uses 2F authentication then it needs to implement the method
-class Btc_payment_processor(PaymentProcessor):
-    def __init__(self, hash_code):
-        self.hash_code = hash_code
-
-    def pay(self, order):
-        print("processing btc payment type")
-        print(f"verifying security code: {self.hash_code}")
-        order.status = "paid"
-
-    def sms_auth(self, two_fact):
-        print(f"This is two factor auth: {two_fact}")
+    def payment_type(self):
+        if not self.approval.approval_status():
+            print("Not Approved")
+        else:
+            print("Approved")
+        print("processing rupay payment type")
+        print(f"verifying security code: {self.cvv_pin}")
 
 
-order = Order()
-order.add_item("chocolate", 2, 20)
-order.add_item("ssd", 2, 20)
-order.total_price()
+class UPIPayment(AcceptedPaymentTypes):
+    """Now applying ISP UPIPayment has duo approval so created approval parameter of
+       duoApproval type"""
 
-# Now we can create objects for diff classes like debit, credit etc.
-payment1 = Debit_payment_processor("34656546e")  # user has to pass the parameter here for security_code
-payment1.pay(order)
-payment1.sms_auth("345re")
-print("_______________________________________")
+    def __init__(self, upi_code: int, approval: DuoApproval):
+        self.upi_code = upi_code
+        self.approval = approval
 
-payment2 = Btc_payment_processor("This is Hash Code")  # user has to pass the parameter here for hash_code
-payment2.pay(order)
-payment2.sms_auth("65765")
+    def payment_type(self):
+        if not self.approval.approval_status():
+            print("Not Approved")
+        else:
+            print("Approved")
+        print("processing rupay payment type")
+        print(f"verifying security code: {self.upi_code}")
+
+
+tur = Tournament()
+tur.create_games("Bowling", 1, 23)
+tur.games_count(1)
+
+approval_type1 = EmailApproval()
+payment = RupayPayment(435, approval_type1)
+approval_type1.email_code_auth("4234")
+payment.payment_type()
+print("___________________________________")
+
+approval_type2 = DuoApproval()
+approval_type2.duo_code_auth(6456)
+payment.payment_type()
+
+# Accepted Payment Types are dependent on concrete class which is email and duo auth we want to depend on
+# abstraction

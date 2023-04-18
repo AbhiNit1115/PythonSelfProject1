@@ -4,80 +4,84 @@
 # T, the behavior of P is unchanged when O1 is substituted for O2 then S is a subtype of T.
 
 # From the previous example of the open closed principle we have created an interface class for payment and from
-# that interface we are deriving child classes. Now our child class BTC doesn't use security code but it uses
-# hash codes so if we are passing hash codes as security codes then we are violating open close principle as well
+# that interface we are deriving child classes. Now our child class UPI doesn't use cvv pin but it uses
+# upi code so if we are passing upi codes as security codes then we are violating open close principle as well
 # as LSP so here is a way to do it.
 
 
 from abc import ABC, abstractmethod
 
 
-class Order:
-    items = []
-    quantities = []
-    prices = []
+class Tournament:
+    events = []
+    teams = []
+    pricing = []
     status = "open"
 
-    def add_item(self, name, quantity, price):
-        self.items.append(name)
-        self.items.append(quantity)
-        self.items.append(price)
+    def create_games(self, games: str, count: int, price: int):
+        self.events.append(games)
+        self.teams.append(count)
+        self.pricing.append(price)
 
-    def total_price(self):
-        total = 0
-        for i in range(len(self.prices)):
-            total += self.quantities[i] * self.prices[i]
-            return total
+    def games_count(self, total_games: int):
+        self.events.append(total_games)
+        total_events = len(self.events)
+        print("Total Games in Tournament:", total_events)
 
 
 # Now in order to implement LSP we have to first remove the security code from the parent class and the create
-# a constructor and pass security_code/hash_code as a parameter to all the subclasses which will be using them.
-class PaymentProcessor(ABC):
+# a constructor and pass security_code/upi_pin as a parameter to all the subclasses which will be using them.
+class AcceptedPaymentTypes(ABC):
     @abstractmethod
-    def pay(self, order):
+    def payment_type(self):
         pass
 
 
-# Now applying LSP the parent class has only one variable and the respective child classes should also
-# be complete substitute of the parent class (in our case having only one parameter).
-class Debit_payment_processor(PaymentProcessor):
+class RupayPayment(AcceptedPaymentTypes):
 
-    def __init__(self, security_code):
-        self.security_code = security_code
+    """Now applying LSP for parent class AcceptedPaymentTypes the respective child class RupayPayment
+     should be complete substitute."""
+    def __init__(self, cvv_pin: int):
+        self.cvv_pin = cvv_pin
 
-    def pay(self, order):
-        print("processing debit payment type")
-        print(f"verifying security code: {self.security_code}")
-        order.status = "paid"
-
-
-class Credit_payment_processor(PaymentProcessor):
-    def __init__(self, security_code):
-        self.security_code = security_code
-
-    def pay(self, order):
-        print("processing credit payment type")
-        print(f"verifying security code: {self.security_code}")
-        order.status = "paid"
+    def payment_type(self):
+        print("Rupay payment mode selected")
+        print(f"the cvv pin is: {self.cvv_pin}")
+        status = "Registered"
+        print("Status is:", status)
 
 
-# Now even if the class BTC method is using hash code instead of security code it is in complete alignment with
-# LSP i.e. it is completely substitutable for parent class
+class CashPayment(AcceptedPaymentTypes):
 
-class Btc_payment_processor(PaymentProcessor):
-    def __init__(self, hash_code):
-        self.hash_code = hash_code
-
-    def pay(self, order):
-        print("processing btc payment type")
-        print(f"verifying security code: {self.hash_code}")
-        order.status = "paid"
+    def payment_type(self):
+        print("Cash Payment no security code required")
+        status = "Registered"
+        print("Status is:", status)
 
 
-order = Order()
-order.add_item("chocolate", 2, 20)
-order.add_item("ssd", 2, 20)
-print(order.total_price())
+class UPIPayment(AcceptedPaymentTypes):
 
-payment = Btc_payment_processor("This is Hash Code")  # now user has to pass the parameter here
-payment.pay(order)
+    """Now even if the class UPI method is using upi code instead of cvv code it is in complete alignment with
+       LSP i.e. it is completely substitutable for parent class"""
+
+    def __init__(self, upi_code: int):
+        self.upi_code = upi_code
+
+    def payment_type(self):
+        print("UPI payment mode selected")
+        print(f"the upi code is: {self.upi_code}")
+        status = "Registered"
+        print("Status is:", status)
+
+
+tur = Tournament()
+tur.create_games("Bowling", 1, 23)
+tur.games_count(1)
+payment1 = UPIPayment(3425345)
+payment1.payment_type()
+print("_______________________")
+payment2 = RupayPayment(2342)
+payment2.payment_type()
+print("_______________________")
+payment3 = CashPayment
+payment3.payment_type(CashPayment)

@@ -14,7 +14,7 @@ class Appliances:
     def juicer(cls):
         print("Class Method belonging to Parent class and juicer is:", cls.appliances)
 
-    @staticmethod  # static method is inheritable
+    @staticmethod  # dynamic method is inheritable
     def grinding_stone():
         print("Static Method belonging to Parent class")
 
