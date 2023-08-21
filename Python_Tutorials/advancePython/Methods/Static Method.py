@@ -34,3 +34,41 @@ class Mobile2:
 
 
 Mobile2.show_model("Nokia 6600", 24000)
+
+
+# ______________________________________________________________________________ #
+
+class calculator:
+
+    def __init__(self, version: int):
+        self.version = version
+
+    def description(self):
+        print(f'the version of the calculator is {self.version}')
+
+    # now here you can see that python gives a suggestion that may be static method i.e. this method is
+    # static i.e. it can be used anywhere and doesn't relies on the class and if we do a quick fix then
+    # python will put this method outside of the class.
+    def add_numbers(self, *numbers: float) -> float:
+        return sum(numbers)
+
+
+# ______________________________________________________________________________ #
+# now to make user aware that the static method is relevant to the class we just use the decorator
+# @staticmethod so that anyone who is looking into this code can understand that this static ,method
+# is relevant for this class and they won't create this method outside.
+
+class calculator1:
+
+    def __init__(self, version: int):
+        self.version = version
+
+    def description(self):
+        print(f'the version of the calculator is {self.version}')
+
+    # now here you can see that python gives a suggestion that may be static method i.e. this method is
+    # static i.e. it can be used anywhere and doesn't relies on the class and if we do a quick fix then
+    # python will put this method outside of the class.
+    @staticmethod
+    def add_numbers(*numbers: float) -> float:
+        return sum(numbers)

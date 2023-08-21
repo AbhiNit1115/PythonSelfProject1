@@ -193,6 +193,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Desktop/LIBG/cs-coreframework-python/cs-coreframework-python/src/projects/Python_POC_API_UI/path_objects/lion_study.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/LIBG/cs-coreframework-python/cs-coreframework-python/src/projects/Python_POC_API_UI/tests/api/test_code.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/LIBG/cs-coreframework-python/cs-coreframework-python/src/projects/Python_POC_API_UI/tests/api/test_lion_study.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/LIBG/cs-coreframework-python/cs-coreframework-python/src/projects/Python_POC_API_UI/tests/conftest.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/LIBG/cs-coreframework-python/cs-coreframework-python/src/projects/Python_POC_API_UI/tests/ui/conftest.py">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Desktop/Training/Python/CleanCode_Final/clean-code-python-naming_962f3369-bacd-4e84-9908-c64f4270bbde/naming/task1/collection/collect_order_service.py">
           <value>
             <set />
@@ -408,7 +433,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/PycharmProjects/PythonApi/venvrequest/actions.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/PycharmProjects/PythonApi/venvrequest/getrequest/get_request.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../AutoGPT/Auto-GPT/.env">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../AutoGPT/Auto-GPT/.env.template">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../AutoGPT/test_my_code.py">
           <value>
             <set />
           </value>
@@ -708,6 +753,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Programs/Array/test5.py">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Programs/Reverse a String.py">
           <value>
             <set />
@@ -788,6 +838,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/advancePython/Constructors/Passing Member of one Class to another Class.py">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Python_Tutorials/advancePython/Encapsulation/Encapsulation.py">
           <value>
             <set />
@@ -804,6 +859,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/Python_Tutorials/advancePython/Memory Management/memory_mgmnt.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Python_Tutorials/advancePython/Methods/Static Method.py">
           <value>
             <set />
           </value>

@@ -15,7 +15,7 @@ class Employee:
 class Company:
     @staticmethod  # create a dynamic method post this create object of class which we want to access
     def company_emp(c):
-        e = Employee("Abhi", "IT1")
+        e = Employee("Jhon", "IT-Devops")
         e.emp_details()
         print("Company's Employee Name is:", c.name)  # accessing variables from class Employee
         print("Company's Dept name is:", c.dept)  # accessing variables from class Employee
@@ -23,5 +23,5 @@ class Company:
 
 
 # Creating object of Employee class
-emp = Employee("Abhi", "IT")  # create object of class
+emp = Employee("Adam", "QA")  # create object of class
 Company.company_emp(emp)  # pass the above created object(emp) as reference to dynamic method of Company class
